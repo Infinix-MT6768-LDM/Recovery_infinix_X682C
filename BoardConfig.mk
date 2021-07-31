@@ -138,3 +138,7 @@ SEPOLICY_IGNORE_NEVERALLOWS := true
 SELINUX_IGNORE_NEVERALLOWS := true
 
 TW_DEVICE_VERSION := LayeardDevMod
+
+# PB Torch
+PB_TORCH_PATH := /sys/devices/virtual/torch/torch/torch_level
+PB_TORCH_MAX_BRIGHTNESS := 1
