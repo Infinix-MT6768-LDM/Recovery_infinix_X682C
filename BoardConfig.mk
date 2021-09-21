@@ -93,6 +93,7 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/etc/recovery.fstab
+LZMA_RAMDISK_TARGETS := recovery
 
 # Additional binaries & libraries needed for recovery
 TARGET_RECOVERY_DEVICE_MODULES += \
