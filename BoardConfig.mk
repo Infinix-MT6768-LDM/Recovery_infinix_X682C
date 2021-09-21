@@ -139,6 +139,18 @@ SELINUX_IGNORE_NEVERALLOWS := true
 
 TW_DEVICE_VERSION := LayeardDevMod
 
-# PB Torch
-PB_TORCH_PATH := /sys/devices/virtual/torch/torch/torch_level
-PB_TORCH_MAX_BRIGHTNESS := 1
+#SHRP Specific Stuff
+
+SHRP_PATH := device/infinix/X682C
+SHRP_MAINTAINER := xoo2001
+SHRP_DEVICE_CODE := X682C
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A_only
+SHRP_NOTCH := true
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /UFS_SD
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_REC := /dev/block/by-name/recovery
+INC_IN_REC_MAGISK := true
+SHRP_DARK := true

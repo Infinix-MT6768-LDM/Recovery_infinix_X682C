@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 DEVICE_PATH := device/infinix/X682C
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/pb/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(DEVICE_PATH)/recovery/root,recovery/root)
 
@@ -32,7 +32,6 @@ PRODUCT_NAME := omni_X682C
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix Hot 10
 PRODUCT_MANUFACTURER := infinix
-PRODUCT_RELEASE_NAME := Infinix Hot 10
 
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
